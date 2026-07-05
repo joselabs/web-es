@@ -100,7 +100,7 @@
       "filename": "providers/hackstore.js",
       "enabled": true,
       "contentLanguage": ["es"]
-    }
+    },
     {
       "id": "areshd",
       "name": "AresHD",
