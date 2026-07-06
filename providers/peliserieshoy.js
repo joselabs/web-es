@@ -154,7 +154,7 @@ function V(e, t, n, r) {
         let c = (yield Promise.all(g.map((p) => L2(p[0], p[1], $)))).filter((p) => p !== null);
         if (c.length > 0) {
           x.push(...c);
-          break;
+          
         }
       }
       let E = ((Date.now() - o) / 1e3).toFixed(2);
