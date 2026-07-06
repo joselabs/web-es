@@ -416,7 +416,7 @@ function ye(e, t, n, c) {
             b.push({ name: "Embed69", title: `${v || "Unknown"} \xB7 ${K} \xB7 ${F}`, url: h, quality: v || "Unknown", headers: j || {} }), console.log(`[Embed69] Resolved: ${T} quality=${v} url=${h == null ? void 0 : h.substring(0, 50)}`);
           }
           console.log(`[Embed69] \u2713 Streams encontrados en ${d}, omitiendo idiomas de menor prioridad`);
-          break;
+          
         } else
           console.log(`[Embed69] Sin streams en ${d}, intentando siguiente idioma...`);
       }
