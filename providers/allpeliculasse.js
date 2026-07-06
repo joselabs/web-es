@@ -201,7 +201,7 @@ async function resolveStreamwish(embedUrl) {
                     if (pending === 0 && !resolved) resolve(null);
                 }
             });
-            setTimeout(() => { if (!resolved) { resolved = true; resolve(null); } }, 5000);
+            setTimeout(() => { if (!resolved) { resolved = true; resolve(null); } }, 10000);
         });
         if (!result) return null;
         return {
